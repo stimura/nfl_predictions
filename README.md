@@ -19,11 +19,22 @@ Ultimately, this model became our control and we used it to informally calibrate
 
 Model 2: Random Forest  and  Model 3: Logistic Regression 
 
-We derived the data to train this model on ESPN's NFL Standings from [2012](http://www.espn.com/nfl/standings/_/season/2012) to [2017](http://www.espn.com/nfl/standings/_/season/2017) and [Madden Ratings](https://maddenratings.weebly.com/madden-nfl-19.html) for the corresponding year.   
+We derived the data to train this model on ESPN's NFL Standings from [2012-2013](http://www.espn.com/nfl/standings/_/season/2013) to [2017-2018](http://www.espn.com/nfl/standings/_/season/2018) and [Madden Ratings](https://maddenratings.weebly.com/madden-nfl-19.html) for the corresponding year. Unlike Elo, these models do not rely on head to head matchups. Therefore, the 2018-2019 season was not incorporated into these models. 
 
 Model 2: Random Forest
 
-The Random Forest algorithm was great to model Madden Ratings data because there are between 54 and 66 unique variables for each individual player. Unlike the Elo model where each team is evaluated and ranked, Madden 
+The Random Forest algorithm was great to model Madden Ratings data because there are between 54 and 66 unique variables for each individual player. Unlike the Elo model where each team is evaluated and ranked, we used the Random Forest model to search for the most important of the dozens of Madden variables to predict the best overall team based on the individual players. Our random forest model acts as a classifier. 
+
+
+Model 3: Logistic Regression 
+
+The Logistic Regression algorithm, like the Elo model, loves binary outcomes (0/1 or win/loss). In this model, we use all of the Madden Rating variables to predict the dependent variable. This model, unlike Random Forest, does not act as a classifier. Logistic Regression estimates probabilities using it’s underlying logistic function and relies on the programmer to remove the least predictive variables to get a better fit. 
+
+
+Results:
+
+
+
 
 
   
