@@ -17,7 +17,7 @@ Ultimately, this model became our control and we used it to informally calibrate
 
 Model 2: Random Forest  and  Model 3: Logistic Regression 
 
-We derived the data to train this model on ESPN's NFL Standings from [2012-2013](http://www.espn.com/nfl/standings/_/season/2013) to [2017-2018](http://www.espn.com/nfl/standings/_/season/2018) and [Madden Ratings](https://maddenratings.weebly.com/madden-nfl-19.html) for the corresponding year. Unlike Elo, these models do not rely on head to head matchups. Therefore, the 2018-2019 season was not incorporated into these models. 
+We derived the data to train this model from ESPN's NFL Standings from [2012-2013](http://www.espn.com/nfl/standings/_/season/2013) to [2017-2018](http://www.espn.com/nfl/standings/_/season/2018) and [Madden Ratings](https://maddenratings.weebly.com/madden-nfl-19.html) for the corresponding year. Unlike Elo, these models do not rely on head to head matchups. Therefore, the 2018-2019 season was not incorporated into these models. 
 
 Model 2: Random Forest
 
