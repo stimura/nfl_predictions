@@ -1,12 +1,10 @@
 # nfl_predictions
-
 Can We Beat FiveThirtyEight's NFL Predictions Using Madden Individual Player Data?
 
 This repository contains code and data to accompany three models: 
   1. The original FiveThirtyEight NFL Elo Model
   2. Random Forest Model of Madden 19's Individual Player Ratings 
   3. Logistic Regression of Madden 19's Individual Player Ratings
-  
   
 Model 1: FiveThirtyEight's NFL Elo Model
 
