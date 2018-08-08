@@ -21,7 +21,7 @@ We derived the data to train this model from ESPN's NFL Standings from [2012-201
 
 Model 2: Random Forest
 
-The Random Forest algorithm was great to model Madden Ratings data because there are between 54 and 66 unique variables for each individual player. Unlike the Elo model where each team is evaluated and ranked, we used the Random Forest model to search for the most important of the dozens of Madden variables to predict the best overall team based on the individual players. Our random forest model acts as a classifier. 
+The Random Forest algorithm was chosen to model Madden Ratings data because there are between 54 and 66 unique variables for each individual player. Unlike the Elo model where each team is evaluated and ranked, we used the Random Forest model to search for the most important of the dozens of Madden variables to predict the best overall team based on the individual players. Our random forest model acts as a classifier. 
 
 
 Model 3: Logistic Regression 
