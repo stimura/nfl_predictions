@@ -4,7 +4,9 @@ Can We Beat FiveThirtyEight's NFL Predictions Using Madden Individual Player Dat
 
 This repository contains code and data to accompany three models: 
   1. The original FiveThirtyEight NFL Elo Model
-  2. Multiple models of Madden 19's Individual Player Ratings 
+  2. Modification of Elo model using a new K
+  3. Multiple models of Madden 19's Individual Player Ratings 
+
  
   
 FiveThirtyEight's NFL Elo Model
@@ -15,6 +17,8 @@ The data for our Elo model was derived from FiveThirtyEight's [historical NFL da
 
 In this model, there are two "mysterious" parameters: the speed at which the model changes (k = 20) and home field advantage (home_adv = 65).
 
+We made some modifications to K for our version of the model. 
+
 
 To beat FiveThirtyEight, we tried lots of other models including: K-nearest Neighbors, Naive Bayes and Gaussian Bayes Classifier, Random Forest, Stochastic Gradient Descent, Perceptron, and Neural Networks. 
 
@@ -24,9 +28,8 @@ In the Madden Ratings data, there are between 54 and 66 unique variables for eac
 
 
 
-Results:
 
-SuperBowl 2019 Winner =  
+
 
 
 
